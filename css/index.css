@@ -1,0 +1,232 @@
+
+nav{
+    width: 100%;
+}
+.bg{
+    -webkit-filter: blur(0.5rem);
+    -moz-filter: blur(0.5rem);
+    -o-filter: blur(0.5rem);
+    -ms-filter: blur(0.5rem);
+    filter: blur(0.5rem);
+    float: left;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+.blur {
+    -webkit-filter: blur(10px); /* Chrome, Opera */
+    -moz-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+#wrapper{
+    width: 100%;
+}
+#logo{
+    width: 15rem;
+    margin-top: -1rem;
+    position: fixed;
+}
+#logo span{
+    display: inline;
+    font-size: 2.1rem;
+    font-family: 华文行楷;
+    font-style: italic;
+    color: gold;
+    font-weight: bold;
+}
+#logo>a{
+    text-decoration: none;
+}
+#logo img{
+    width:4rem;
+    display: inline;
+}
+ .my-navbar{
+   background-color: rgba(246,175,203,0.3);
+    border: none;
+    border-radius: 0;
+    filter: blur(15px);
+
+}
+#my-navbar-collapse-1 ul{
+   /* margin-right: 1rem;*/
+}
+/*.my-form-group{
+    width:100%;
+}*/
+/*.my-form-group input{
+    width: 100%;
+}*/
+/*#formdiv{
+    width:20rem;
+}*/
+#my-navbar-collapse-1{
+    margin-left: 15rem;
+    margin-top: 0.5rem;
+}
+#my-navbar-collapse-1 .navbar-nav > li {
+    margin-right:0.5rem;
+}
+.navbar-default .navbar-nav>li>a{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(15,180,178,0.8);
+    text-shadow: 2px 2px 2px rgba(15,180,178,0.5);
+}
+.navbar-default .navbar-nav>li>a:hover{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(237,70,28,0.5);
+}
+.my-dropdown-menu{
+    background-color:  rgba(246,175,203,0.6);
+}
+.my-dropdown-menu li>a{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-family: 华文宋体;
+    color: rgb(31, 118, 180);
+    font-weight: bold;
+}
+.my-navbar-form{
+    margin-top: 0.4rem;
+}
+.my-form-control{
+    width:60%;
+    display: inline;
+    border-radius: 3rem;
+    height: 2.5rem;
+}
+ul>form{
+    margin-top:0.5rem;
+}
+.my-btn{
+    display: inline;
+    background-color: rgba(246,175,203,0);
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3c763d;
+}
+
+.rortateicon{animation:rotate 3s linear infinite;}
+@keyframes rotate{
+    0%{
+        transform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.bink{animation:blink 3s linear infinite;}
+@keyframes blink{
+    0%{
+        opacity: 0.1;
+    }
+    50%{
+        opacity:0.5
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#content{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    top:20%;
+    margin-left: 23%;
+
+    height: 40%;
+}
+.dg-wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    -o-perspective: 1000px;
+    -ms-perspective: 1000px;
+    perspective: 1000px;
+}
+.dg-wrapper a{
+    width: auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.dg-wrapper a.dg-transition{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.dg-wrapper a img{
+    display: block;
+    width: 100%;
+    box-shadow: rgba(178,157,126,1) 5px 4px 5px;
+    border-width: 1em;
+    border-color:gold ;
+    border-style: ridge;
+}
+.dg-wrapper a div{
+    font-style: italic;
+    text-align: center;
+    line-height: 50px;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.5);
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    bottom: -55px;
+    display: none;
+    position: absolute;
+}
+.dg-wrapper a.dg-center div{
+    display: block;
+}
+
+@media screen and (max-width: 736px) and(min-width: 668px){
+    #my-navbar-collapse-1{
+        margin-left: 0rem;
+    }
+    #content{
+        width: 40%;
+        position: absolute;
+        text-align: center;
+        top:20%;
+        margin-left: 10%;
+
+        height: 40%;
+    }
+}
+@media screen and (max-width: 667px){
+    #my-navbar-collapse-1{
+        margin-left: 0rem;
+    }
+    #content{
+        /*width:100%;*/
+        position: absolute;
+        text-align: center;
+        top:20%;
+        height: 40%;
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+}
