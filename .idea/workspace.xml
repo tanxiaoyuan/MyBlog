@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b9756a7-63d0-4c9e-bd72-27e6199eecd1" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/musics/Glenna - Shutterbug.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/musics/backgroudMusic.mp3" afterPath="$PROJECT_DIR$/musics/Lainey Lou - Oceanside.mp3" />
     </list>
     <ignored path="MyBlog.iws" />
     <ignored path=".idea/workspace.xml" />
