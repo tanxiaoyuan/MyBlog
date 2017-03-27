@@ -202,31 +202,11 @@ ul>form{
     display: block;
 }
 
-@media screen and (max-width: 736px) and(min-width: 668px){
+@media screen and (max-width: 736px){
     #my-navbar-collapse-1{
         margin-left: 0rem;
     }
-    #content{
-        width: 40%;
-        position: absolute;
-        text-align: center;
-        top:20%;
-        margin-left: 10%;
-
-        height: 40%;
-    }
-}
-@media screen and (max-width: 667px){
-    #my-navbar-collapse-1{
-        margin-left: 0rem;
-    }
-    #content{
-        /*width:100%;*/
-        position: absolute;
-        text-align: center;
-        top:20%;
-        height: 40%;
-        margin-right: 0;
-        margin-left: 1rem;
+    #dg-container{
+        display:none;
     }
 }
