@@ -144,7 +144,6 @@ ul>form{
     text-align: center;
     top:20%;
     margin-left: 23%;
-
     height: 40%;
 }
 .dg-wrapper{
@@ -200,6 +199,17 @@ ul>form{
 }
 .dg-wrapper a.dg-center div{
     display: block;
+}
+footer div{
+    background: rgba(246,175,203,0.7);
+    font-style: italic;
+    position: fixed;
+    display: block;
+    top:96%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    height: 4rem;
 }
 
 @media screen and (max-width: 736px){
