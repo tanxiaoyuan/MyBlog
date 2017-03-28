@@ -41,7 +41,7 @@ nav{
     text-decoration: none;
 }
 #logo img{
-    width:4rem;
+    width:5rem;
     display: inline;
 }
  .my-navbar{
@@ -211,7 +211,18 @@ footer div{
     font-weight: bold;
     height: 4rem;
 }
-
+#dg-container>nav{
+    position: absolute;
+    margin-top:50%;
+    display: block;
+    width: 100%;
+}
+#dg-container>nav>a{
+    margin-left:-20%;
+    margin-right:-20%;
+    margin-top: -50%;
+    background-image: none;
+}
 @media screen and (max-width: 736px){
     #my-navbar-collapse-1{
         margin-left: 0rem;
@@ -219,4 +230,45 @@ footer div{
     #dg-container{
         display:none;
     }
+}
+@keyframes mysnow {
+    0% {
+        bottom: 100%;
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+    }
+    30%{
+        opacity: 1;
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+    }
+    50%{
+        opacity: 1;
+        transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+    }
+    75%{
+        opacity: 1;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+    }
+    100% {
+        opacity: 0;
+        bottom: 0;
+    }
+}
+.roll{
+    position:fixed;
+    opacity:0;
+    animation: mysnow 7s ;
+    -webkit-animation: mysnow 7s ;
+    width:3rem;
+    z-index: 300;
+}
+.roll img{
+    width: 100%;
 }
